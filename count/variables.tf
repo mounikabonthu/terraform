@@ -12,7 +12,7 @@ variable "domain_name"{
 variable "common_tags"{
     type= map 
     default={
-        project="expense",
+        project="expense"
         environment="dev"
 
     }
